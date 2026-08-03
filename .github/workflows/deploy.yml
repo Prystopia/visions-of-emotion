@@ -4,8 +4,9 @@ on:
   push:
     branches: [main]
 
+#hardcode image name to ensure lowercase name for image
 env:
-  IMAGE: ghcr.io/${{github.repository}}/voe
+  IMAGE: ghcr.io/prystopia/visions-of-emotion/voe
 
 jobs:
   build:
