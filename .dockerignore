@@ -1,0 +1,9 @@
+.venv
+__pycache__/
+__blobstorage__/
+.vscode/
+local.settings.json
+host.json
+function.json
+function_app.py
+ConditionalGAN/G-axial-emotion-one-hot-256-lr-1-full-dataset-new-gen-layout-e-500.pth
